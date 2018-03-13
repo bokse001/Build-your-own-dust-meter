@@ -42,7 +42,7 @@ This sensor uses counting method to measure dust concentration, not weighing met
 <img src="./images/IDE.png" alt="Arduino IDE">
 
 ## Prepare your laptop for ESP development
-1. Install the https://www.arduino.cc/en/Main/Software Arduino IDE software, launch the IDE and allow firewall access
+1. Install the https://www.arduino.cc/en/Main/Software Arduino IDE software (Windows installer), launch the IDE and allow firewall access
 1. File > Preferences, check the “Display line numbers option“
 1. Add the URL http://arduino.esp8266.com/stable/package_esp8266com_index.json to the “Addition Boards Manager URLs” field and press the “Ok” button
 <img src="./images/settings.png" alt="Settings">
