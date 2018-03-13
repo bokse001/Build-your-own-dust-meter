@@ -31,10 +31,13 @@ This sensor uses counting method to measure dust concentration, not weighing met
 
 <img src="./images/dust meter_bb.jpg" alt="Connecting the hardware">
 
-- DHT pin 1 to 3,3V
-- DHT pin 2 to D4
-- DHT pin 4 to GND
-- Resistor to 3,3V and DHT pin 2
+- Vin to pin 3 PPD42
+- GND to pin 1 PPD42
+- Pin 1 PPD42 to 4,7K resistor
+- 4,7K resistor to 10K resistor
+- 10K resistor to GND
+- Middle resistors to D7
+
 
 <img src="./images/IDE.png" alt="Arduino IDE">
 
