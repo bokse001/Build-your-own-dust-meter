@@ -48,11 +48,11 @@ This sensor uses counting method to measure dust concentration, not weighing met
 <img src="./images/settings.png" alt="Settings">
 1. Tools > Boards > Boards Manager, install the "esp8266" board package
 <img src="./images/boards.png" alt="Boards manager">
-1. Sketch> Include Library> Manage Libraries, install the "AzureIoTHub", "AzureIoTProtocol_MQTT",  "Adafruit Unified Sensor", "DHT sensor library"  and "AzureIoTUtility" libraries
+1. Sketch> Include Library> Manage Libraries, install the "AzureIoTHub", "AzureIoTProtocol_MQTT",  "Adafruit Unified Sensor"  and "AzureIoTUtility" libraries
 
 <img src="./images/library_IoTHub.png" alt="Library Manager">
 
-6. Download the following libraries: https://github.com/tzapu/WiFiManager, http://github.com/bblanchon/ArduinoJson and https://github.com/knolleary/pubsubclient via "Clone or download" and then pressing "Download ZIP". Unzip their contents in you users' "Documents\Arduino\libraries" directory.
+6. Download the following libraries: https://github.com/tzapu/WiFiManager, http://github.com/bblanchon/ArduinoJson and https://github.com/knolleary/pubsubclient via "Clone or download" and then pressing "Download ZIP". Then load these libraries via; Sketch->Include library->Add .ZIP Library.
 
 <img src="./images/download_zip.png" alt="Libraries">
 
